@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .badSize {
+            font-size: 48px;
+        }
+
+        .goodSize {
+            font-size: 3rem;
+        }
+
+        .mybox {
+            font-size: 2rem;
+        }
+
+/* 
+Font Sizez:
+We prefer using rem and em instead of pixels for font size bcz it is compatible with google i.e rem and em changes size with rspect to the google's small/medium or large font size 
+
+whereas pixels are static
+we can also use pixels to rem converter for out convenience
+in general 1rem = 16px
+
+We further prefer rem over em bcz em has compounding effect for nested Div Tags
+*/
+
+
+    </Style>
+</head>
+
+<body>
+
+    <p class="badSize">Kabir Mehmood</p>
+    <p class="goodSize">Kabir Mehmood</p>
+    <p>Kabir Mehmood</p>
+
+    <div class="mybox">
+        <p class="goodSize">
+            Pickle
+        </p>
+    </div>
+
+</body>
+
+</html>
